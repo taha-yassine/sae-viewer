@@ -13,3 +13,6 @@ Install:
 Run:
 
 ```npm start```
+
+## Acknowledgments
+This project is a fork of [OpenAI's SAE viewer](https://github.com/openai/sparse_autoencoder/tree/main/sae-viewer), licensed under the MIT License.
