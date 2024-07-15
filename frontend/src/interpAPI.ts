@@ -46,8 +46,8 @@ export async function get_feature_info(feature: Feature, ablated?: boolean): Pro
   let load_fn = load_file_az;
   let prefix = "https://openaipublic.blob.core.windows.net/sparse-autoencoder/viewer"
   if (window.location.host.indexOf('localhost:') !== -1) {
-    load_fn = load_file;
-    prefix = "az://openaipublic/sparse-autoencoder/viewer"
+    load_fn = load_file_az;
+    prefix = "http://localhost:8000/sparse-autoencoder/viewer"
     // prefix = az://oaialignment/interp/autoencoder-vis/ae
   }
   
