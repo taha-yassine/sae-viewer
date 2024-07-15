@@ -1,0 +1,12 @@
+.DS_Store
+dist/
+node_modules/
+__pycache__/
+.parcel-cache/
+.cache/
+blog_json/
+
+flake.nix
+flake.lock
+.envrc
+.direnv
